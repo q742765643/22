@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>clinic</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="vendor/themify/themify.css"/>
+		<link rel="stylesheet" href="../megakit/html/css/global/global.css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/clinic.css" />
+	</head>
+	<body>
+		<div class="nav-head" id="nav-head"> <!--导航条-->
+		  <button type="button" class="head-button" onclick="mybar()">
+	        <span class="fa fa-bars fa-2x" ></span>
+	      </button>
+	      <a class="navbar-brand" href="megakit.html">
+	      	<img src="img1/logo.png" class="head-logo"/>
+	      </a>
+		</div>
+		<div class="click-mask" id="itmask"> <!--点击页面导航遮罩-->
+			 <button type="button" class="mask-button" onclick="backit()">
+			   <span class="fa fa-arrow-circle-o-up fa-2x"></span>
+			 </button>
+			 <a class="navbar-brand mask-brand" href="megakit.html">
+	      	  <img src="img1/logo.png" />
+	         </a>
+	         <div class="clearfix"></div>
+	         <div class="mask-nav" > <!--遮罩内页导航-->
+	         	<ul class="mask-list f-r">
+	         	<li class="slideInUp animated"><a href="megakit.html" class="activea">Corporate</a></li>                            
+	         	<li class="slideInUp animated li2"><a href="app-landing.html">App Landing</a></li>
+	         	<li class="slideInUp animated li5"><a href="layer.html" >Lawyer</a></li>
+	         	<li class="slideInUp animated li6"><a href="clinic.html">Clinic</a></li>
+	         </ul>
+	         <ul class="mask-list f-r">
+	         	<li class="slideInUp animated"><a href="about.html">About</a></li>
+	         	<li class="slideInUp animated li2"><a href="team.html">Team</a></li>
+	         	<li class="slideInUp animated li3"><a href="services.html" >Services</a></li>
+	         	<li class="slideInUp animated li4"><a href="events.html">Events</a></li>
+	         </ul>
+	         </div>
+	         <ul class="mask-foot">
+	         	<li>
+	         		<a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+	         	<li>
+	         	<li>
+	         		<a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+	         	<li>
+	         	<li>
+	         		<a href="#"><i class="fa fa-dribbble"></i> Dribbble</a>
+	         	<li>
+	         </ul>
+ 		</div>  <!--点击页面导航遮罩结束-->
+		<!--顶部轮播图-->
+		<section class="top-banner">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					   
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner banner-top-contain relative" role="listbox">
+					    <div class="item active item2">
+					      <img src="img1/14.jpg" >
+					      <div class="carousel-caption">
+						  	<h2>Medical Excellence<br>Every Day</h2>
+						  	<p>Clinics can be privately operated or <br>publicly managed and funded.</p>
+						  	<a href="#" class="s-btn banner-buttom">RED MORE</a>
+					  	  </div>	
+					    </div>
+					    <div class="item">
+					      <img src="img1/13.jpg" >
+					      <div class="carousel-caption">
+						  	<h2>Medical Services<br>that You Can Trust</h2>
+						  	<p>A clinic is a healthcare facility that is<br> primarily focused on the care of outpatients.</p>
+						  	<a href="#" class="s-btn  banner-buttom">RED MORE</a>
+					  	  </div>	
+					    </div>   
+					  </div>  
+				</div>	
+		</section>
+		<!--小点点-->
+		<section class="Services container">
+			<div class="row Services-contain">
+				<div class="col-md-6 Services-contain2">
+					<div class="row Services-width">
+						<div class="col-xs-6 Services-pic wow fadeInRight animated">
+							<img class="img-responsive" src="img1/003.jpg" />
+						</div>
+						<div class="col-xs-6"></div>	
+						<div class="col-xs-6 Services-pic1 wow fadeInRight animated" style="animation-delay: 0.3s;">
+							<img class="img-responsive" src="img1/010.jpg">
+						</div>
+						<div class="col-xs-6 Services-pic2 wow fadeInRight animated" style="animation-delay: 0.5s;">
+							<img class="img-responsive" src="img1/011.jpg">
+						</div>	
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="Services-text">
+						<p class="Services-pg">SERVICES</p>
+						<h2>We Specialize In</h2>
+						<p>With more than 40 years of experience in healthcare consulting, we deliver results to help grow your practice. Our comprehensive medical billing services allow you to do what you do best—run your practice.</p>
+						<div class="row">
+							<ul class="list-unstyled col-xs-4 Services-txt">
+								<li><i class="ti-check Services-icon"></i>Surgery</li>
+								<li><i class="ti-check Services-icon"></i>Cardiology</li>
+								<li><i class="ti-check Services-icon"></i>Ophthalmology</li>
+								<li><i class="ti-check Services-icon"></i>Gynaecological</li>
+							</ul>
+							<ul class="list-unstyled col-xs-4 Services-txt">
+								<li><i class="ti-check Services-icon"></i>Outpatient</li>
+								<li><i class="ti-check Services-icon"></i>Rehabilitation</li>
+								<li><i class="ti-check Services-icon"></i>Laryngological</li>
+								<li><i class="ti-check Services-icon"></i>Pediatric</li>
+							</ul>
+							<ul class="list-unstyled col-xs-4 Services-txt">
+								<li><i class="ti-check Services-icon"></i>Pediatric</li>
+								<li><i class="ti-check Services-icon"></i>Rehabilitation</li>
+								<li><i class="ti-check Services-icon"></i>Surgery</li>
+								<li><i class="ti-check Services-icon"></i>Ophthalmology</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="process">
+			<div class="process-contain container">
+				<div class="process-text">
+					<p>PROCESS</p>
+					<h2>How It Works</h2>
+				</div>
+				<ul class="row list-inline relative">
+					<li class="col-xs-6 col-sm-3 process-item">
+						<div class="process-dot ">
+							<span class="process-btn">01</span>
+							<h3>Make An Appointment</h3>
+							<p>Clinics can be privately operated or publicly managed.</p>
+						</div>
+					</li>
+					<li class="col-xs-6 col-sm-3 process-item">
+						<div class="process-dot">
+							<span class="process-btn">02</span>
+							<h3>Make An Appointment</h3>
+							<p>Clinics can be privately operated or publicly managed.</p>
+						</div>
+					</li>
+					<li class="col-xs-6 col-sm-3 process-item">
+						<div class="process-dot">
+							<span class="process-btn">03</span>
+							<h3>Make An Appointment</h3>
+							<p>Clinics can be privately operated or publicly managed.</p>
+						</div>
+					</li>
+					<li class="col-xs-6 col-sm-3 process-item fail">
+						<div class="process-dot">
+							<span class="process-btn">04</span>
+							<h3>Make An Appointment</h3>
+							<p>Clinics can be privately operated or publicly managed.</p>
+						</div>
+					</li>
+				</ul>
+				<div class="process-link">
+					<a href="" class="s-btn process-bt">Make an Appointment</a>
+				</div>
+			</div>
+		</div>
+		<!--特征-->
+		<section class="section">
+			<div class="container">
+				<!--第一行-->
+				<div class="section-bottom row">
+					<div class="section-item col-sm-4">
+							<div class="section-icon">
+							  <div class="wow fadeInDown " data-wow-duration=".5" data-wow-delay=".1s">
+							    <i class="ti-desktop"></i>
+							  </div>
+						   </div>
+						<div class="section-words">
+							<h3>Responsive Layout</h3>
+							<p>This is where we sit down, grab a cup of coffee and dial in the details.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="section-item col-sm-4">
+							<div class="section-icon">
+							  <div class="wow fadeInDown " data-wow-duration=".5" data-wow-delay=".2s">
+							    <i class="ti-settings"></i>
+							  </div>
+						   </div>
+						<div class="section-words">
+							<h3>Fully Customizable</h3>
+							<p>This is where we sit down, grab a cup of coffee and dial in the details.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="section-item col-sm-4">
+							<div class="section-icon">
+							  <div class="wow fadeInDown " data-wow-duration=".5" data-wow-delay=".3s">
+							    <i class="ti-ruler-alt-2"></i>
+							  </div>
+						   </div>
+						<div class="section-words">
+							<h3>Pixel Perfect</h3>
+							<p>This is where we sit down, grab a cup of coffee and dial in the details.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div><!--end row-->
+				<!--第二行-->
+				<div class="row">
+					<div class="section-item col-sm-4">
+							<div class="section-icon">
+							  <div class="wow fadeInDown " data-wow-duration=".5" data-wow-delay=".4s">
+							    <i class="ti-package"></i>
+							  </div>
+						   </div>
+						<div class="section-words">
+							<h3>Endless Possibilities</h3>
+							<p>This is where we sit down, grab a cup of coffee and dial in the details.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="section-item col-sm-4">
+							<div class="section-icon">
+							  <div class="wow fadeInDown " data-wow-duration=".5" data-wow-delay=".5s">
+							    <i class="ti-star"></i>
+							  </div>
+						   </div>
+						<div class="section-words">
+							<h3>Powerful Performance</h3>
+							<p>This is where we sit down, grab a cup of coffee and dial in the details.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="section-item col-sm-4" style="margin-bottom: 0;">
+							<div class="section-icon">
+							  <div class="wow fadeInDown " data-wow-duration=".5" data-wow-delay=".6s">
+							    <i class="ti-panel"></i>
+							  </div>
+						   </div>
+						<div class="section-words">
+							<h3>Parallax Support</h3>
+							<p>This is where we sit down, grab a cup of coffee and dial in the details.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div><!--end row-->
+				<!--第三行-->
+				<div class="row">
+					<div class="section-item col-sm-4">
+							<div class="section-icon">
+							  <div class="wow fadeInDown " data-wow-duration=".5" data-wow-delay=".4s">
+							    <i class="ti-package"></i>
+							  </div>
+						   </div>
+						<div class="section-words">
+							<h3>Endless Possibilities</h3>
+							<p>This is where we sit down, grab a cup of coffee and dial in the details.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="section-item col-sm-4">
+							<div class="section-icon">
+							  <div class="wow fadeInDown " data-wow-duration=".5" data-wow-delay=".5s">
+							    <i class="ti-star"></i>
+							  </div>
+						   </div>
+						<div class="section-words">
+							<h3>Powerful Performance</h3>
+							<p>This is where we sit down, grab a cup of coffee and dial in the details.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="section-item col-sm-4" style="margin-bottom: 0;">
+							<div class="section-icon">
+							  <div class="wow fadeInDown " data-wow-duration=".5" data-wow-delay=".6s">
+							    <i class="ti-panel"></i>
+							  </div>
+						   </div>
+						<div class="section-words">
+							<h3>Parallax Support</h3>
+							<p>This is where we sit down, grab a cup of coffee and dial in the details.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div><!--end row-->	
+			</div>	
+		</section>
+
+		<!--砖家-->
+		<div class="Specialists">
+				<div class="Specialists-text container">
+					<p>30 YEARS CARING ABOUT YOU</p>
+					<h3>Professional Specialists</h3>
+				</div>
+				<div class="Specialists-pic">
+					<ul class="row">
+						<li class="col-xs-6 col-md-3 Specialists-list">
+							<div class="Specialists-img">
+								<img src="img1/3.jpg">
+							</div>
+							<div class="Specialists-txt">
+								<p>Jack Daniels</p>
+								<h4>Cardiology</h4>
+							</div>
+						</li>
+						<li class="col-xs-6 col-md-3 Specialists-list">
+							<div class="Specialists-img">
+								<img src="img1/4.jpg">
+							</div>
+							<div class="Specialists-txt">
+								<p>Jack Daniels</p>
+								<h4>Cardiology</h4>
+							</div>
+						</li>
+						<li class="col-xs-6 col-md-3 Specialists-list">
+							<div class="Specialists-img">
+								<img src="img1/5.jpg">
+							</div>
+							<div class="Specialists-txt">
+								<p>Jack Daniels</p>
+								<h4>Cardiology</h4>
+							</div>
+						</li>
+						<li class="col-xs-6 col-md-3 Specialists-list">
+							<div class="Specialists-img">
+								<img src="img1/6.jpg">
+							</div>
+							<div class="Specialists-txt">
+								<p>Jack Daniels</p>
+								<h4>Cardiology</h4>
+							</div>
+						</li>
+					</ul>
+				</div>
+		</div>
+		<!--Recover背景图-->
+		<section class="Recover relative">
+			<div class="Recover-banner container">
+				<div class="Recover-text">
+					<h2>The Fastest Way To Recover</h2>
+				</div>	
+				<a href="" class="s-btn Recover-btn">Learn More</a>	
+			</div>
+		</section>
+		
+		<!--底部小图片-->
+		<section class="Medical container-fluid">
+				<div class="Medical-text">
+					<h4>THERAPY NEWS</h4>
+					<p>A clinic is a healthcare facility that<br> is primarily focused on the care of outpatients.</p>
+				</div>
+				<div class="Medical-pic ">
+					<div class="Medical-item Medical-img">
+						<div class="Medical-txt">
+							<h3>Medical Services</h3>
+							<p>Clinics can be privately operated.</p>
+							<a href="" class="s-btn Medical-btn">Read More</a>
+						</div>
+					</div>
+					<div class="Medical-item Medical-img2">
+						<div class="Medical-txt">
+							<h3>Medical Services</h3>
+							<p>Clinics can be privately operated.</p>
+							<a href="" class="s-btn Medical-btn">Read More</a>
+						</div>
+					</div>
+					<div class="Medical-item Medical-img3">
+						<div class="Medical-txt">
+							<h3>Medical Services</h3>
+							<p>Clinics can be privately operated.</p>
+							<a href="" class="s-btn Medical-btn">Read More</a>
+						</div>
+					</div>
+					<div class="Medical-item Medical-img4">
+						<div class="Medical-txt">
+							<h3>Medical Services</h3>
+							<p>Clinics can be privately operated.</p>
+							<a href="" class="s-btn Medical-btn">Read More</a>
+						</div>
+					</div>
+				</div>
+		</section>
+		
+		<!--底部表单-->
+		<section class="bottom-form">
+			<div class="bottom-contant container">
+				<div class="row">
+					<div class="form-left col-md-8">
+						<h2>Make An Appointment</h2>
+						<form class="bottom-list">	
+							<div class="row bottom-row">
+								<input class="bottom-inpt bottom-inpu2 inpt3 col-sm-6" type="text" placeholder="* Full Name"/>
+								<input class="bottom-inpt col-sm-6" type="text" placeholder="* Phone Number"/>
+							</div>
+							<div class="row bottom-row">
+								<input class="bottom-inpt col-sm-4 bottom-inpu2 inpt3" type="text" placeholder="* Department"/>
+								<input class="bottom-inpt col-sm-4 bottom-inpu2 inpt3" type="text" placeholder="* Doctor" />
+								<input class="bottom-inpt col-sm-4" type="text" placeholder="* DD/MM/YY"/>
+							</div>
+							<div class="bottom-area">
+								<textarea class="form-txt" rows="5" placeholder="* What ails you?"></textarea>
+							</div>
+							<div class="bottom-btn">	
+								 <button type="submit" class="form-radius s-btn">SUBMIT</button>
+							</div>
+						</form>
+					</div>
+					<div class="form-right col-md-4">
+						<div class="right-contant">
+							<h2>Contact Us</h2>
+							<ul class="right-item list-unstyled">
+								<li class="right-list">
+									<span class="right-icon"><i class="ti-location-pin"></i></span>
+									<span>277 Bedford Avenue, <br> Brooklyn, NY 11211, New York</span>
+								</li>
+								<li class="right-list">
+									<span class="right-icon"><i class="ti-headphone-alt"></i></span>
+									<span> + (1) 001 389 3720</span>
+								</li>
+								<li class="right-list">
+									<span class="right-icon"><i class="ti-email"></i></span>
+									<span> support@keenthemes.com</span>
+								</li>
+							</ul>
+							<ul class="right-iocn list-inline">
+								<li><a href=""><i class="ti-facebook right-ionc"></i></a></li>
+								<li><a href=""><i class="ti-twitter right-ionc"></i></a></li>
+								<li><a href=""><i class="ti-instagram right-ionc"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer-up "><!--尾部上半部分-->
+				<div class="container">
+					<ul class="row ">
+						<li class="col-sm-2">
+							<ul class="footer-item">
+								<li><a href="#">Home</a> </li>
+								<li><a href="#">About</a> </li>
+								<li><a href="#">Work</a> </li>
+								<li><a href="#">Contact</a> </li>
+							</ul>
+						</li>
+						<li class="col-sm-2">
+							<ul class="footer-item">
+								<li><a href="#">Twitter</a> </li>
+								<li><a href="#">Facebook</a> </li>
+								<li><a href="#">Instagram</a> </li>
+								<li><a href="#">YouTube</a> </li>
+							</ul>
+						</li>
+						<li class="col-sm-2">
+							<ul class="footer-item">
+								<li><a href="#">Subscribe to Our Newsletter</a> </li>
+								<li><a href="#">Privacy Policy</a> </li>
+								<li><a href="#">Terms & Conditions</a> </li>
+							</ul>
+						</li>
+						<li class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 footer-item02">
+							<h3>Megakit</h3>
+							<p>We are a creative studio focusing on culture, 
+								luxury, editorial & art. Somewhere between 
+								sophistication and simplicity.</p>
+						</li>
+					</ul>
+				</div>
+				
+			</div><!--上半部分结束-->
+			<div class="footer-down"><!--尾部下半部分-->
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6 footer-logo">
+							<a href="#">
+								<img src="img1/logo.png" /> 
+							</a>
+						</div>
+						<div class="col-xs-6 footer-words">
+							<p>
+								<a href="#">Megakit</a>
+								 Theme Powered by:
+								<a href="#">KeenThemes.com</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div><!--下半部分结束-->
+		</footer><!--foot结束-->
+		<!--回到顶部-->
+		<div class="actGotop">
+			<a href="javascript:;" title="返回顶部">
+				<i class="ti-arrow-up"></i>
+			</a>
+		</div>
+		<script src="js/jquery-2.1.0.js"></script>	
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/wow.min.js" ></script>	
+		<script type="text/javascript">
+			new WOW().init();
+			var nav = document.getElementById("itmask")
+			var navbar = document.getElementById("nav-head")
+			function mybar() {
+				nav.style.display = "block";
+				navbar.style.display = "none";
+			}
+			function backit(){
+				nav.style.display = "none"
+				navbar.style.display = "block";
+			}
+			$(function(){   
+			    $(window).scroll(function() {      
+			        if($(window).scrollTop() >= 100){
+			            $('.actGotop').fadeIn(300); 
+			        }else{    
+			            $('.actGotop').fadeOut(300);    
+			        }  
+			    });
+			    $('.actGotop').click(function(){
+			    $('html,body').animate({scrollTop: '0px'}, 800);});   
+			});
+			$(function(){   
+			    $(window).scroll(function() {      
+			        if($(window).scrollTop() >= 10){
+			            $('.nav-head').css('background','#fff'); 
+			            $('.head-logo').attr('src','img1/logo-dark.png');
+			        }else{    
+			            $('.nav-head').css('background','transparent');   
+			            $('.head-logo').attr('src','img1/logo.png');
+			        }  
+			    });
+			      
+			});
+		</script>
+	</body>
+</html>

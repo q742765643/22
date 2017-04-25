@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>about</title>
+		<link href="vendor/themify/themify.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/about.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<!-- Web Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+	</head>
+	<body>
+		<div class="nav-head" id="nav-head">
+			<!--导航条-->
+			<button type="button" class="head-button" onclick="mybar()">
+	        <span class="fa fa-bars fa-2x" ></span>
+	        </button>
+			<a class="navbar-brand" href="megakit.html">
+				<img  class="head-logo" src="img/logo.png"/>
+			</a>
+		</div>
+		<div class="click-mask" id="itmask">
+			<!--点击页面导航遮罩-->
+			<button type="button" class="mask-button" onclick="backit()">
+			   <span class="fa fa-arrow-circle-o-up fa-2x"></span>
+			 </button>
+			<a class="navbar-brand mask-brand" href="megakit.html">
+				<img src="img/logo.png" />
+			</a>
+			<div class="clearfix"></div>
+			<div class="mask-nav" > <!--遮罩内页导航-->
+	         	<ul class="mask-list f-r">
+	         	<li class="slideInUp animated"><a href="megakit.html" class="activea">Corporate</a></li>                            
+	         	<li class="slideInUp animated li2"><a href="">App Landing</a></li>
+	         	<li class="slideInUp animated li5"><a href="layer.html" >Lawyer</a></li>
+	         	<li class="slideInUp animated li6"><a href="#">Clinic</a></li>
+	         </ul>
+	         <ul class="mask-list f-r">
+	         	<li class="slideInUp animated"><a href="about.html">About</a></li>
+	         	<li class="slideInUp animated li2"><a href="team.html">Team</a></li>
+	         	<li class="slideInUp animated li3"><a href="services.html" >Services</a></li>
+	         	<li class="slideInUp animated li4"><a href="events.html">Events</a></li>
+	         </ul>
+	         </div>
+			<ul class="mask-foot">
+				<li>
+					<a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-dribbble"></i> Dribbble</a>
+				</li>
+			</ul>
+		</div>
+		<!--点击页面导航遮罩结束-->
+
+		<div class="banner">
+			<!--banner图-->
+			<div class="banner-title">
+				<h6>WELCOME TO MEGAKIT</h6>
+				<h1>Creative Design</h1>
+				<p>We are a creative studio focusing on culture, luxury, editorial & art. Somewhere between sophistication and simplicity.</p>
+				<button class="btn btn-lg banner-button1">LEARNIT</button>
+				<button class="btn btn-lg banner-button2">HIRE US</button>
+			</div>
+		</div><!--banner图结束-->
+		<!--cultureandspeakers-->
+		<div class="container cultureandspeakers">
+			<div class="row speakers">
+				<div class="col-sm-6">
+					<div class="row culture">
+						<div class="col-sm-6 wow slideInLeft">
+							<img src="img/400x500/05.jpg"/>
+						</div>
+						<div class="col-sm-6 wow slideInLeft" data-wow-delay="0.3s">	
+							<img src="img/400x550/01.jpg"/>
+					    </div>
+				    </div>
+				</div>
+				<div class="col-xs-1"></div>
+				<div class="col-sm-5 ">
+					<div class="culture-words">
+						<h5>CULTURE</h5>
+						<h1>About Event</h1>
+						<p>
+							We aim high at being focused on building relationships with 
+							our clients and community. Using our creative gifts drives this foundation.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row speakers">
+				<div class="col-sm-6 col-sm-push-6 ">
+					<div class="row culture">
+						<div class="col-sm-6 wow slideInRight" data-wow-delay="0.3s">
+							<img src="img/400x550/02.jpg"/>
+						</div>
+						<div class="col-sm-6 wow slideInRight" >	
+							<img src="img/400x500/06.jpg"/>
+					    </div>
+				   </div>
+				</div>
+				<div class="col-xs-1"></div>
+				<div class="col-sm-5 col-sm-pull-7" >
+					<div class="culture-words speakers-wwords">
+						<h5>CULTURE</h5>
+						<h1>About Event</h1>
+						<p>
+							We aim high at being focused on building relationships with 
+							our clients and community. Using our creative gifts drives this foundation.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div><!--cultureandspeakers结束-->
+		<!--新闻-->
+		<div class="news">
+			<div class="container">
+				<!--标题-->
+				<div class="news-title">
+					<p>BLOG</p>
+					<h2>Latest News</h2>
+				</div>
+				<!--新闻项目-->
+				<div class="news-item row">
+					<article class="col-sm-4"><!--博文内容-->
+						<img  class="img-responsive" src="img/970x970/01.jpg"/>
+						<div class="news-words">
+							<h4>NEWS</h4>
+							<h3>
+								<a href="#">Create Something Great.</a>
+							</h3>
+							
+							<p>The time has come to bring those ideas and plans to life.</p>
+						</div>
+					</article>
+					<article class="col-sm-4"><!--博文内容-->
+						<img  class="img-responsive" src="img/970x970/02.jpg"/>
+						<div class="news-words">
+							<h4>NEWS</h4>
+							<h3>
+								<a href="#">Jacks of All. Experts in All.</a>
+							</h3>
+							
+							<p>The time has come to bring those ideas and plans to life.</p>
+						</div>
+					</article>
+					<article class="col-sm-4"><!--博文内容-->
+						<img  class="img-responsive" src="img/970x970/03.jpg"/>
+						<div class="news-words">
+							<h4>NEWS</h4>
+							<h3>
+								<a href="#">Finding Your Perfect Place.</a>
+							</h3>
+							
+							<p>The time has come to bring those ideas and plans to life.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<footer class="footer">
+			<div class="footer-up "><!--尾部上半部分-->
+				<div class="container">
+					<ul class="row ">
+						<li class="col-sm-2">
+							<ul class="footer-item">
+								<li><a href="#">Home</a> </li>
+								<li><a href="#">About</a> </li>
+								<li><a href="#">Work</a> </li>
+								<li><a href="#">Contact</a> </li>
+							</ul>
+						</li>
+						<li class="col-sm-2">
+							<ul class="footer-item">
+								<li><a href="#">Twitter</a> </li>
+								<li><a href="#">Facebook</a> </li>
+								<li><a href="#">Instagram</a> </li>
+								<li><a href="#">YouTube</a> </li>
+							</ul>
+						</li>
+						<li class="col-sm-2">
+							<ul class="footer-item">
+								<li><a href="#">Subscribe to Our Newsletter</a> </li>
+								<li><a href="#">Privacy Policy</a> </li>
+								<li><a href="#">Terms & Conditions</a> </li>
+							</ul>
+						</li>
+						<li class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 footer-item02">
+							<h3>Megakit</h3>
+							<p>We are a creative studio focusing on culture, 
+								luxury, editorial & art. Somewhere between 
+								sophistication and simplicity.</p>
+						</li>
+					</ul>
+				</div>
+				
+			</div><!--上半部分结束-->
+			<div class="footer-down"><!--尾部下半部分-->
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6 footer-logo">
+							<a href="#">
+								<img src="img/logo.png" /> 
+							</a>
+						</div>
+						<div class="col-xs-6 footer-words">
+							<p>
+								<a href="#">Megakit</a>
+								 Theme Powered by:
+								<a href="#">KeenThemes.com</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div><!--下半部分结束-->
+		</footer><!--foot结束-->
+		<!--回到顶部-->
+		<div class="actGotop">
+			<a href="javascript:;" title="返回顶部">
+				<i class="ti-arrow-up"></i>
+			</a>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<script src="http://cdn.dowebok.com/131/js/wow.min.js"></script>
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script type="text/javascript" src="js/jquery.countup.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			if(!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+				new WOW().init();
+			};
+		</script>
+		<script>
+			var nav = document.getElementById("itmask")
+
+			function mybar() {
+				nav.style.display = "block";
+				navbar.style.display = "none";
+			}
+
+			function backit() {
+				nav.style.display = "none";
+				navbar.style.display = "block";
+			}
+		</script>
+
+		<script type="text/javascript">
+			$('.counter').countUp();
+			new WOW().init();
+			var showalldis = document.getElementById("showall")
+			var graphicdis = document.getElementById("graphic")
+			var logodis = document.getElementById("logo")
+			var motiondis = document.getElementById("motion")
+
+			function mygraphic() {
+				showalldis.style.display = "none"
+				logodis.style.display = "none"
+				motiondis.style.display = "none"
+				graphicdis.style.display = "block"
+			}
+
+			function myshowall() {
+				showalldis.style.display = "block"
+				logodis.style.display = "none"
+				motiondis.style.display = "none"
+				graphicdis.style.display = "none"
+			}
+
+			function mylogo() {
+				showalldis.style.display = "none"
+				logodis.style.display = "block"
+				motiondis.style.display = "none"
+				graphicdis.style.display = "none"
+			}
+
+			function mymotion() {
+				showalldis.style.display = "none"
+				logodis.style.display = "none"
+				motiondis.style.display = "block"
+				graphicdis.style.display = "none"
+			}
+			var nav = document.getElementById("itmask")
+			var navbar = document.getElementById("nav-head")
+			function mybar() {
+				nav.style.display = "block";
+				navbar.style.display = "none";
+			}
+
+			function backit() {
+				nav.style.display = "none";
+				navbar.style.display = "block";
+			}
+			$(function(){   
+			    $(window).scroll(function() {      
+			        if($(window).scrollTop() >= 100){
+			            $('.actGotop').fadeIn(300); 
+			        }else{    
+			            $('.actGotop').fadeOut(300);    
+			        }  
+			    });
+			    $('.actGotop').click(function(){
+			    $('html,body').animate({scrollTop: '0px'}, 800);});   
+			});
+			$(function(){   
+			    $(window).scroll(function() {      
+			        if($(window).scrollTop() >= 10){
+			            $('.nav-head').css('background','#fff'); 
+			            $('.head-logo').attr('src','img/logo-dark.png'); 
+			        }else{    
+			            $('.nav-head').css('background','transparent');  
+			            $('.head-logo').attr('src','img/logo.png');
+			        }  
+			    });
+			      
+			});
+			
+		</script>
+	</body>
+</html>
